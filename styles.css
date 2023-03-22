@@ -1,5 +1,4 @@
 
-
 @media screen and (min-width: 375px) {
   /* universal formatting */
 
@@ -10,11 +9,11 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
   body {
     background-color: #fff;
   }
-  
+
   html {
     scroll-behavior: smooth;
   }
@@ -59,7 +58,7 @@
   .headlines .intro {
     font-size: 40px;
     font-weight: 700;
-    color: #172B4D;
+    color: #172b4d;
   }
 
   .about p {
