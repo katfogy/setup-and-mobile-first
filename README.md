@@ -130,7 +130,8 @@ Example commands:
 Install this project with:
 
 - Clone the code into your machine and run test in an editor of your choice(E.g VScode).
-
+### Usage
+run the project by opening index.html with  your browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
