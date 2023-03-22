@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap');
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+
+  
+  @media screen and (min-width: 375px) {
+/* universal formatting */
+li{
+    list-style-type: none;
+}
+    .main-header{
+        height: 3rem;
+        padding: 24px ;
+        background-color: #fff;  
+        border-radius: 0 0 0 5px 0; 
+    }
+.info{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info a{
+    text-decoration: none;
+    color: #6070FF;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.headlines{
+    background-image: url("assets/images/header-shapes\ mobile.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+
+.headlines .about{
+    padding: 24px;
+}
+
+.headlines .intro{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.about p{
+    margin-top: 12px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.headlines .connect{
+    padding: 0 24px;
+    color: #7F8CFF;
+}
+
+.headlines .social-icons{
+    padding: 24px;
+}
+
+.social-icons ul{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+  }
