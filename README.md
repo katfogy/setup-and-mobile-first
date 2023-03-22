@@ -57,11 +57,11 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Website Mobile First Version] <a name="about-project"></a>
+# 📖 [Foga's portfolio website] <a name="about-project"></a>
 
-> This is my first Microverse Project. It contains every first step I have to take as a developer.
+> This is my second Microverse Project. It is based on how to build my portfolio and make it responsive to various devices
 
-**[Hello Microverse Project]** is a Personal Portfolio Website.
+**[Foga's portfolio website]** is a website that is used to test for responsiveness to mobile devices
 
 ## 🛠 Built With <a name="HTML and CSS"></a>
 
@@ -75,10 +75,22 @@ After you're finished please remove all the comments and instructions!
   <ul>
     <li><a href="#">HTML</a></li>
     <li><a href="#">CSS</a></li>
+    <li><a href="#">JS</a></li>
   </ul>
 </details>
 
 <!-- Features -->
+### Key Features 
+    [It has a header for navigation]
+    [There is a headline section to know more about me and click on the links to connect with me directly]
+    [There is a works section to display my recent works]
+    [There is a skills section to showcase the skills I have in terms of programming]
+    [There is a form section to write me directly about any questions]
+    [The portfolio is mobile and desktop responsive]
+    [There is a pop-up window for when you click on the see project button]
+    [There is form validation for all input fields]
+    [Data are stored in local storage]
+
 
 <!-- LIVE DEMO -->
 
@@ -139,8 +151,8 @@ Install this project with:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Contact form]**
-- [ ] **[Desktop version of the website]**
+- [ ] **[Integrate more dynamic styles with css frameworks]**
+- [ ] **[Develop a database to store information from people who sends information via email]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -154,7 +166,7 @@ Feel free to check the [issues page](https://github.com/katfogy/setup-and-mobile
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project or would love to tell me ways to improve it, contact me on LinkedIn or Twitter
+If you like this project or would love to tell me ways to improve it, contact me on LinkedIn or Twitter. It will be a pleasure to hear from you and maybe collaborate on more projects.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
