@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap');
-
 *,
 *::before,
 *::after {
@@ -10,7 +8,6 @@
 
 body {
   background-color: #fff;
-  font-family: "Poppins", sans-serif;
 }
 
 html {
@@ -19,9 +16,6 @@ html {
 
 @media screen and (min-width: 375px) {
   /* universal formatting */
-  li {
-    list-style-type: none;
-  }
 
   .main-header {
     height: 5rem;
@@ -34,6 +28,7 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-family: "Poppins", sans-serif;
   }
 
   .info a {
@@ -52,6 +47,7 @@ html {
     margin-top: -10px;
     background-color: #fff;
     border-radius: 0 0 0 40px;
+    font-family: "Poppins", sans-serif;
   }
 
   .headlines .about {
@@ -76,6 +72,10 @@ html {
 
   .headlines .social-icons {
     padding: 24px;
+  }
+
+  li {
+    list-style-type: none;
   }
 
   .social-icons ul {
