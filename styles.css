@@ -1,22 +1,22 @@
 
-
 @media screen and (min-width: 375px) {
-    *,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #fff;
-}
-
-html {
-  scroll-behavior: smooth;
-}
   /* universal formatting */
+
+  *,
+  *::before,
+  *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #fff;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
 
   .main-header {
     height: 5rem;
