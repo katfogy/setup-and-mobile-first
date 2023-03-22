@@ -137,9 +137,9 @@ Opening the index.html with  your browser
 
 <!-- AUTHORS -->
 
-## 👥 Authors <a name="authors">Foga Kater Amos</a>
+## 👥 Author <a name="authors">Foga Kater Amos</a>
 
-👤 **Author1**
+👤 **Foga Kater Amos**
 
 - GitHub: [@githubhandle](https://github.com/katfogy)
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)

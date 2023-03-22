@@ -1,22 +1,23 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 @media screen and (min-width: 375px) {
   /* universal formatting */
 
-  *,
-  *::before,
-  *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
 
-  body {
-    background-color: #fff;
-  }
-
-  html {
-    scroll-behavior: smooth;
-  }
 
   .main-header {
     height: 5rem;
@@ -58,12 +59,14 @@
   .headlines .intro {
     font-size: 40px;
     font-weight: 700;
+    color: #172B4D;
   }
 
   .about p {
     margin-top: 12px;
     line-height: 24px;
     font-weight: 400;
+    color: #344563;
   }
 
   .headlines .connect {
