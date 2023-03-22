@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap');
+
 *,
 *::before,
 *::after {
@@ -8,76 +9,80 @@
 }
 
 body {
-    background-color: #fff;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  html {
-    scroll-behavior: smooth;
+  background-color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media screen and (min-width: 375px) {
+  /* universal formatting */
+  li {
+    list-style-type: none;
   }
 
-  
-  @media screen and (min-width: 375px) {
-/* universal formatting */
-li{
-    list-style-type: none;
-}
-    .main-header{
-        height: 3rem;
-        padding: 24px ;
-        background-color: #fff;  
-        border-radius: 0 0 0 5px 0; 
-    }
-.info{
+  .main-header {
+    height: 5rem;
+    padding: 24px;
+    background-color: #fff;
+  }
+
+  .info {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
 
-.info a{
+  .info a {
     text-decoration: none;
-    color: #6070FF;
+    color: #6070ff;
     font-size: 20px;
     font-weight: 700;
     text-transform: uppercase;
-}
+  }
 
-
-.headlines{
+  .headlines {
     background-image: url("assets/images/header-shapes\ mobile.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 30px;
-}
+    margin-top: -10px;
+    background-color: #fff;
+    border-radius: 0 0 0 40px;
+  }
 
-.headlines .about{
+  .headlines .about {
     padding: 24px;
-}
+  }
 
-.headlines .intro{
+  .headlines .intro {
     font-size: 40px;
     font-weight: 700;
-}
+  }
 
-.about p{
+  .about p {
     margin-top: 12px;
     line-height: 24px;
     font-weight: 400;
-}
-.headlines .connect{
-    padding: 0 24px;
-    color: #7F8CFF;
-}
-
-.headlines .social-icons{
-    padding: 24px;
-}
-
-.social-icons ul{
-    display: flex;
-    justify-content: space-between;
-    width: 50%;
-}
   }
+
+  .headlines .connect {
+    padding: 0 24px;
+    color: #7f8cff;
+  }
+
+  .headlines .social-icons {
+    padding: 24px;
+  }
+
+  .social-icons ul {
+    display: flex;
+
+    /* justify-content: space-between; */
+    gap: 20px;
+    width: 50%;
+  }
+}
