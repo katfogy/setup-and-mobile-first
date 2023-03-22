@@ -81,15 +81,15 @@ After you're finished please remove all the comments and instructions!
 
 <!-- Features -->
 ### Key Features 
-    [It has a header for navigation]
-    [There is a headline section to know more about me and click on the links to connect with me directly]
-    [There is a works section to display my recent works]
-    [There is a skills section to showcase the skills I have in terms of programming]
-    [There is a form section to write me directly about any questions]
-    [The portfolio is mobile and desktop responsive]
-    [There is a pop-up window for when you click on the see project button]
-    [There is form validation for all input fields]
-    [Data are stored in local storage]
+- **[It has a header for navigation]**
+- **[There is a headline section to know more about me and click on the links to connect with me directly]**
+- **[There is a works section to display my recent works]**
+- **[There is a skills section to showcase the skills I have in terms of programming]**
+- **[There is a form section to write me directly about any questions]**
+- **[The portfolio is mobile and desktop responsive]**
+- **[There is a pop-up window for when you click on the see project button]**
+- **[There is form validation for all input fields]**
+- **[Data are stored in local storage]**
 
 
 <!-- LIVE DEMO -->
