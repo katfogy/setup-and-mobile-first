@@ -104,7 +104,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-To get a local copy up and running, follow these steps.
+<!-- To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -129,9 +129,9 @@ Example commands:
 
 Install this project with:
 
-- Clone the code into your machine and run test in an editor of your choice(E.g VScode).
+- Clone the code into your machine and run test in an editor of your choice(E.g VScode). -->
 ### Usage
-run the project by opening index.html with  your browser
+Opening the index.html with  your browser
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
