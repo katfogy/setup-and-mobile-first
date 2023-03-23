@@ -205,16 +205,18 @@
     margin-top: -2px;
   }
 
-  .lang-info{
+  .lang-info {
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-size: 20px;
   }
-  .more-lang{
-    color: #ACB7C3;
+
+  .more-lang {
+    color: #acb7c3;
     transform: rotate(90deg);
   }
+
   .languages {
     margin-top: 36px;
   }
@@ -225,7 +227,7 @@
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    padding:12px;
+    padding: 12px;
     gap: 12px;
     border-radius: 8px;
   }
@@ -246,9 +248,10 @@
     justify-content: space-between;
   }
 
-  .more{
-    color: #ACB7C3;
+  .more {
+    color: #acb7c3;
   }
+
   .contact-me {
     padding: 24px;
     background-image: url('assets/images/contact\ form\ shapes-mobile.svg');
@@ -282,7 +285,6 @@
 
   .form-control {
     line-height: 40px;
-
     margin-block: 23px;
     border-radius: 8px;
     padding: 2px 10px;
