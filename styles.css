@@ -95,7 +95,7 @@
 
   /* work styling */
   .projects {
-    margin-block: 10px;
+    margin-block: 104px;
     display: grid;
     grid-template-columns: 1fr;
     width: 100%;
@@ -110,7 +110,7 @@
 
   .project-tile {
     font-size: 38px;
-    margin-block: 10px;
+    margin-block: 15px;
     color: #172b4d;
   }
 
@@ -133,9 +133,9 @@
   }
 
   .btns {
-    margin-block: 10px;
+    margin-block: 16px;
     display: flex;
-    gap: 10px;
+    gap: 8px;
   }
 
   .btn {
@@ -146,6 +146,7 @@
     border: none;
     cursor: pointer;
     list-style-type: none;
+    font-size: 16px;
   }
 
   .detail-btn {
@@ -156,6 +157,7 @@
     outline: none;
     border: 1px solid #396df2;
     width: 50%;
+    margin-block: 30px;
     cursor: pointer;
     font-size: 17px;
   }
@@ -172,11 +174,12 @@
   .myself {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
   }
 
   .about-myself .connect {
     padding: 0;
-    margin-bottom: 10px;
+    margin-bottom: 26px;
   }
 
   .about-myself .social-icons {
@@ -190,20 +193,30 @@
   }
 
   .about-details {
-    line-height: 24px;
+    line-height: 25px;
     color: #344563;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
 
   .right-content {
     font-family: "Poppins", sans-serif;
-    padding: 24px;
+    padding: 0;
     background-color: #fff;
     margin-top: -2px;
   }
 
+  .lang-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+  }
+  .more-lang{
+    color: #ACB7C3;
+    transform: rotate(90deg);
+  }
   .languages {
-    margin-top: 10px;
+    margin-top: 36px;
   }
 
   .languages li {
@@ -212,8 +225,8 @@
     margin-bottom: 10px;
     display: flex;
     align-items: center;
-    padding: 10px;
-    gap: 10px;
+    padding:12px;
+    gap: 12px;
     border-radius: 8px;
   }
 
@@ -225,16 +238,21 @@
 
   .tools-container li {
     list-style-type: none;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 15px;
     border-bottom: 2px solid #dfe1e6;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
   }
 
+  .more{
+    color: #ACB7C3;
+  }
   .contact-me {
     padding: 24px;
     background-image: url('assets/images/contact\ form\ shapes-mobile.svg');
-    background-position: right 100px;
+    background-position: right -40px;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -249,6 +267,8 @@
   .contact-title {
     font-size: 40px;
     text-align: center;
+    margin-top: 103px;
+    margin-bottom: 12px;
   }
 
   .contact-form {
@@ -263,7 +283,7 @@
   .form-control {
     line-height: 40px;
 
-    /* margin-bottom: px; */
+    margin-block: 23px;
     border-radius: 8px;
     padding: 2px 10px;
     border: 2px solid #6070ff;
@@ -273,7 +293,7 @@
   textarea {
     border: 2px solid #6070ff;
     border-radius: 8px;
-    padding: 5px 10px;
+    padding: 10px 15px;
     font-family: inherit;
   }
 
@@ -297,6 +317,7 @@
 
   .contact-details {
     text-align: center;
+    font-size: 20px;
   }
 
   .detail-btn:hover {
