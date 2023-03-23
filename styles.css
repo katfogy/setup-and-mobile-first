@@ -215,6 +215,7 @@
   .more-lang {
     color: #acb7c3;
     transform: rotate(90deg);
+    cursor: pointer;
   }
 
   .languages {
@@ -235,7 +236,7 @@
   .tools-container {
     display: grid;
     text-transform: uppercase;
-    margin-top: 20px;
+    margin-top: 36px;
   }
 
   .tools-container li {
@@ -250,6 +251,7 @@
 
   .more {
     color: #acb7c3;
+    cursor: pointer;
   }
 
   .contact-me {
