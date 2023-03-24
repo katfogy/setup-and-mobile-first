@@ -94,7 +94,7 @@ After you're finished please remove all the comments and instructions!
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a href="https://katfogy.github.io/setup-and-mobile-first/"></a>
+## 🚀 Live Demo <a name="https://katfogy.github.io/setup-and-mobile-first/"></a>
 
 - [Live Demo Link](<a href="https://katfogy.github.io/setup-and-mobile-first/"></a>)
 
