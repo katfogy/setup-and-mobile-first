@@ -1,4 +1,4 @@
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 350px) {
   /* universal formatting */
 
   *,
@@ -302,7 +302,7 @@
   }
 
   .get-in-touch {
-    padding: 15px 20px;
+    padding: 15px;
     border-radius: 8px;
     color: #6070ff;
     background-color: #fff;
