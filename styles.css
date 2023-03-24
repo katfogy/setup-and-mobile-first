@@ -150,7 +150,7 @@
   }
 
   .detail-btn {
-    padding: 15px 20px;
+    padding: 15px 10px;
     border-radius: 8px;
     color: #6070ff;
     background-color: #fff;
@@ -302,13 +302,13 @@
   }
 
   .get-in-touch {
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
     color: #6070ff;
     background-color: #fff;
     outline: none;
     border: 1px solid #396df2;
-    width: 60%;
+    width: 50%;
     cursor: pointer;
     font-size: 17px;
     font-weight: 700;
