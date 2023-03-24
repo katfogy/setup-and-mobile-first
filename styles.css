@@ -302,13 +302,13 @@
   }
 
   .get-in-touch {
-    padding: 15px;
+    padding: 10px;
     border-radius: 8px;
     color: #6070ff;
     background-color: #fff;
     outline: none;
     border: 1px solid #396df2;
-    width: 50%;
+    width: 60%;
     cursor: pointer;
     font-size: 17px;
     font-weight: 700;
