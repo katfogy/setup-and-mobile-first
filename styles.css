@@ -18,7 +18,6 @@ html {
 }
 
 @media screen and (min-width: 350px) {
-
   /* universal formatting */
   .container {
     padding: 24px;
@@ -31,10 +30,10 @@ html {
     background-color: #fff;
   }
 
+  .menu-lists {
+    display: none;
+  }
 
-.menu-lists{
-  display: none;
-}
   .info {
     width: 100%;
     display: flex;
@@ -349,121 +348,116 @@ html {
   }
 }
 
-
 /* @media screen and (min-width:  768px) { */
-
-  @media screen and (min-width:768px) { 
-    .info-image{
-      display: none;
-    }
-    .main-header{
-      position: fixed;
-      width: 100%;
-      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
-      z-index: 6;
-    }
-    .menu-lists{
-      display: flex;
-      list-style-type: none;
-    }
-
-    .menu-lists .item a{
-      text-transform: capitalize;
-      font-size: 15px;
-      color: #344563;
-      margin-right: 32px;
-      cursor: pointer;
-    }
-
-    .info {
-      max-width: 1200px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: auto;
-    }
-
-    .headlines{
-      background-image: url("assets/images/header-bg.svg");
-      background-position:center;
-      background-size: contain;
-      background-repeat: no-repeat;
-      min-height: 80vh;
-      position: relative;
-      top: 50px;
-      margin-bottom: 60px;
-
-    }
-
-    .contain {
-      max-width: 1000px;
-      padding: 24px;
-      font-family: "Poppins", sans-serif;
-      /* margin: auto; */
-      position: absolute;
-      left: 10%;
-      top: 10%;
-    }
-
-    .about p{
-      font-size: 20px;
-      line-height: 28px;
-    }
-
-    .work-sections{
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    .container{
-      display: grid;
-      grid-template-columns: 1fr;
-    }
-
-    .projects{
-      display: flex;
-      justify-content: space-between;
-      max-width: 1000px;
-      margin: 50px auto;
-
-    }
-
-    .projects .project-image{
-      width: 444px;
-      height: 348px;
-      margin-right: 46px;
-    }
-
-    .stack-year{
-      justify-content: flex-start;
-      gap: 20px;
-    }
-
-  
-  
-.center{
-  max-width: 1100px;
-  margin: 100px auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.myself{
-  margin-right: 20px;
-}
-
-.contact-me{
-  background-image:url(assets/images/contact-form-background-shapes.svg);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  text-align: center;
-}
-
-.contact{
-  max-width: 600px;
-  margin: 60px auto;
-}
-
-
+@media screen and (min-width: 768px) {
+  .info-image {
+    display: none;
   }
+
+  .main-header {
+    position: fixed;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    z-index: 6;
+  }
+
+  .menu-lists {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .menu-lists .item a {
+    text-transform: capitalize;
+    font-size: 15px;
+    color: #344563;
+    margin-right: 32px;
+    cursor: pointer;
+  }
+
+  .info {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+
+  .headlines {
+    background-image: url("assets/images/header-bg.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    position: relative;
+    top: 50px;
+    margin-bottom: 60px;
+  }
+
+  .contain {
+    max-width: 1000px;
+    padding: 24px;
+    font-family: "Poppins", sans-serif;
+
+    /* margin: auto; */
+    position: absolute;
+    left: 10%;
+    top: 10%;
+  }
+
+  .about p {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .work-sections {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .projects {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+
+  .projects .project-image {
+    width: 444px;
+    height: 348px;
+    margin-right: 46px;
+  }
+
+  .stack-year {
+    justify-content: flex-start;
+    gap: 20px;
+  }
+
+  .center {
+    max-width: 1100px;
+    margin: 100px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .myself {
+    margin-right: 20px;
+  }
+
+  .contact-me {
+    background-image: url(assets/images/contact-form-background-shapes.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  .contact {
+    max-width: 600px;
+    margin: 60px auto;
+  }
+}
