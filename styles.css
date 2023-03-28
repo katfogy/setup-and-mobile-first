@@ -357,6 +357,7 @@ html {
       position: fixed;
       width: 100%;
       box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      z-index: 6;
     }
     .menu-lists{
       display: flex;
@@ -381,11 +382,13 @@ html {
 
     .headlines{
       background-image: url("assets/images/header-bg.svg");
-      background-position:top;
+      background-position:center;
       background-size: contain;
       background-repeat: no-repeat;
       min-height: 80vh;
       position: relative;
+      top: 50px;
+      margin-bottom: 60px;
 
     }
 
