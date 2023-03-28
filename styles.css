@@ -132,11 +132,11 @@
     margin-block: 10px;
   }
 
-  /* .btns {
+  .btns {
     margin-block: 16px;
     display: flex;
     gap: 8px;
-  } */
+  }
 
   .btn {
     padding: 6px 12px;
@@ -149,10 +149,6 @@
     font-size: 16px;
   }
 
-  .btn{
-    float: left;
-    margin-right: 10px;
-  }
   .detail-btn {
     padding: 15px 10px;
     border-radius: 8px;
