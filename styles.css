@@ -454,6 +454,7 @@ html {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  text-align: center;
 }
 
 .contact{
@@ -461,5 +462,5 @@ html {
   margin: 60px auto;
 }
 
-  
+
   }
