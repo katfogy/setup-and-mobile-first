@@ -18,6 +18,7 @@ html {
 }
 
 @media screen and (min-width: 350px) {
+
   /* universal formatting */
   .container {
     padding: 24px;
@@ -59,6 +60,7 @@ html {
     background-color: #fff;
     border-radius: 0 0 0 40px;
     font-family: "Poppins", sans-serif;
+    width: 100%;
   }
 
   .headlines .about {
@@ -273,6 +275,7 @@ html {
     margin-top: 20px;
     font-family: "Poppins", sans-serif;
     color: #fff;
+    width: 100%;
   }
 
   .contact-title {
