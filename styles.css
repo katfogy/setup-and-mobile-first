@@ -427,6 +427,10 @@ html {
     margin: 50px auto;
   }
 
+  .projects:nth-child(even){
+  flex-direction: row-reverse;
+  }
+
   .projects .project-image {
     width: 444px;
     height: 348px;
