@@ -429,8 +429,8 @@ html {
   }
 
   .projects {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex: 1;
     justify-content: space-between;
     max-width: 1000px;
     margin: 50px auto;
