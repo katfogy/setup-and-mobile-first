@@ -137,6 +137,8 @@ html {
 
   .detail-text {
     margin-block: 10px;
+    color: #344563;
+    font-size: 16px;
   }
 
   .btns {
@@ -158,16 +160,17 @@ html {
   }
 
   .detail-btn {
-    padding: 15px 10px;
+    padding: 15px 5px;
     border-radius: 8px;
     color: #6070ff;
     background-color: #fff;
     outline: none;
     border: 1px solid #396df2;
-    width: 50%;
+    width: 150px;
     margin-block: 30px;
     cursor: pointer;
     font-size: 17px;
+    font-weight: 600;
   }
 
   /* about myself styling */
@@ -434,9 +437,9 @@ html {
     transition: all 0.3s ease-in;
   }
 
-  .projects:hover {
+  /* .projects:hover {
     transform: scale(1.05);
-  }
+  } */
 
   .projects:nth-child(even) {
     flex-direction: row-reverse;
@@ -466,16 +469,17 @@ html {
   }
 
   .detail-btn {
-    padding: 15px;
+    padding: 15px 5px;
     border-radius: 8px;
     color: #6070ff;
     background-color: #fff;
     outline: none;
     border: 1px solid #396df2;
-    width: 50%;
+    width: 150px;
     margin-block: 30px;
     cursor: pointer;
     font-size: 17px;
+    font-weight: 600;
   }
 
   .center {
