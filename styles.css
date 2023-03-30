@@ -424,6 +424,11 @@ html {
     justify-content: space-between;
     max-width: 1000px;
     margin: 50px auto;
+    transition: all 0.3s ease-in;
+  }
+
+  .projects:hover{
+    transform: scale(1.05);
   }
 
   .projects:nth-child(even) {
