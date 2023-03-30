@@ -265,7 +265,7 @@ html {
     cursor: pointer;
   }
 
-  .tools{
+  .tools {
     color: #344563;
     padding-block: 20px;
   }
@@ -465,8 +465,6 @@ html {
     margin-right: 10px;
   }
 
-
-  
   .detail-btn {
     padding: 15px;
     border-radius: 8px;
@@ -479,7 +477,6 @@ html {
     cursor: pointer;
     font-size: 17px;
   }
-  
 
   .center {
     max-width: 1100px;
@@ -505,13 +502,13 @@ html {
     margin: 60px auto;
   }
 
-  .languages{
+  .languages {
     display: flex;
     justify-content: space-between;
     gap: 5px;
   }
 
-  .languages li{
+  .languages li {
     display: flex;
     flex-direction: column;
     flex: 1;
