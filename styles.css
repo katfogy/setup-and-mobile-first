@@ -350,7 +350,6 @@ html {
 
 /* @media screen and (min-width:  768px) { */
 @media screen and (min-width: 768px) {
-
   .info-image {
     display: none;
   }
@@ -427,8 +426,8 @@ html {
     margin: 50px auto;
   }
 
-  .projects:nth-child(even){
-  flex-direction: row-reverse;
+  .projects:nth-child(even) {
+    flex-direction: row-reverse;
   }
 
   .projects .project-image {
