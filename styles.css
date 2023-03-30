@@ -68,7 +68,6 @@ html {
 
   .headlines .about {
     padding: 24px;
-  
   }
 
   .headlines .intro {
@@ -443,9 +442,10 @@ html {
     align-items: center;
   }
 
-  .projects>*{
+  .projects > * {
     flex: 1;
   }
+
   .projects:hover {
     transform: scale(0.9);
   }
@@ -532,22 +532,22 @@ html {
   }
 }
 
-
 @keyframes slidFromLeft {
-  from{
+  from {
     transform: translateX(-50%);
   }
-  to{
+
+  to {
     transform: translateX(0%);
   }
 }
 
 @keyframes slidFromRight {
-  from{
+  from {
     transform: translateX(50%);
   }
-  to{
+
+  to {
     transform: translateX(0%);
   }
 }
-
