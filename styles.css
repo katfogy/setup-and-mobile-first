@@ -427,7 +427,7 @@ html {
     transition: all 0.3s ease-in;
   }
 
-  .projects:hover{
+  .projects:hover {
     transform: scale(1.05);
   }
 
