@@ -40,6 +40,10 @@ html {
     justify-content: space-between;
     align-items: center;
     font-family: "Poppins", sans-serif;
+    transition: all 0.3s ease-in;
+    animation-duration: 3s;
+    animation-name: slidFromLeft;
+    transform: translate(0%);
   }
 
   .info a {
@@ -64,6 +68,7 @@ html {
 
   .headlines .about {
     padding: 24px;
+  
   }
 
   .headlines .intro {
@@ -429,17 +434,21 @@ html {
   }
 
   .projects {
+    padding: 30px;
     display: flex;
-    flex: 1;
     justify-content: space-between;
     max-width: 1000px;
     margin: 50px auto;
     transition: all 0.3s ease-in;
+    align-items: center;
   }
 
-  /* .projects:hover {
-    transform: scale(1.05);
-  } */
+  .projects>*{
+    flex: 1;
+  }
+  .projects:hover {
+    transform: scale(0.9);
+  }
 
   .projects:nth-child(even) {
     flex-direction: row-reverse;
@@ -504,6 +513,10 @@ html {
   .contact {
     max-width: 600px;
     margin: 60px auto;
+    transition: all 0.3s ease-in;
+    animation-duration: 3s;
+    animation-name: slidFromLeft;
+    transform: translate(0%);
   }
 
   .languages {
@@ -518,3 +531,23 @@ html {
     flex: 1;
   }
 }
+
+
+@keyframes slidFromLeft {
+  from{
+    transform: translateX(-50%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slidFromRight {
+  from{
+    transform: translateX(50%);
+  }
+  to{
+    transform: translateX(0%);
+  }
+}
+
