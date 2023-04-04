@@ -105,7 +105,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-<!-- To get a local copy up and running, follow these steps.
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
@@ -130,7 +130,7 @@ Example commands:
 
 Install this project with:
 
-- Clone the code into your machine and run test in an editor of your choice(E.g VScode). -->
+- Clone the code into your machine and run test in an editor of your choice(E.g VScode).
 ### Usage
 Opening the index.html with  your browser
 
