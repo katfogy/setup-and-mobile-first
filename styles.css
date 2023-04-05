@@ -1,32 +1,32 @@
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600;700&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: 'Poppins', sans-serif;
 }
 
-.myself{
-  background:url(/assets/images/header-bg.svg);
+.myself {
+  background: url(/assets/images/header-bg.svg);
   background-repeat: no-repeat;
-  background-size:cover ;
+  background-size: cover;
 }
 
-.full{
+.full {
   width: 100%;
 }
 
-.bb{
+.bb {
   border-bottom: 1px solid gainsboro;
 }
 
-footer{
-  background:url(/assets/images/contact-form-background-shapes.svg);
+footer {
+  background: url(/assets/images/contact-form-background-shapes.svg);
   background-repeat: no-repeat;
-  background-size:cover ;
+  background-size: cover;
 }
