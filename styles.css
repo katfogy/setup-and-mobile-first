@@ -20,3 +20,13 @@ body{
 .full{
   width: 100%;
 }
+
+.bb{
+  border-bottom: 1px solid gainsboro;
+}
+
+footer{
+  background:url(/assets/images/contact-form-background-shapes.svg);
+  background-repeat: no-repeat;
+  background-size:cover ;
+}
