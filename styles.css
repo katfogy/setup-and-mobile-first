@@ -18,7 +18,6 @@ html {
 }
 
 @media screen and (min-width: 350px) {
-  /* universal formatting */
   .container {
     padding: 24px;
     font-family: "Poppins", sans-serif;
@@ -120,13 +119,10 @@ html {
 
   .social-icons ul {
     display: flex;
-
-    /* justify-content: space-between; */
     gap: 20px;
     width: 50%;
   }
 
-  /* work styling */
   .projects {
     margin-block: 104px;
     display: grid;
@@ -198,8 +194,6 @@ html {
     font-size: 17px;
     font-weight: 600;
   }
-
-  /* about myself styling */
 
   .about-myself {
     background-color: #fff;
@@ -408,7 +402,6 @@ html {
   }
 
   .info {
-    /* max-width: 1200px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
