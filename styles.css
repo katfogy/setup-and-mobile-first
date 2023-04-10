@@ -18,7 +18,6 @@ html {
 }
 
 @media screen and (min-width: 350px) {
-  /* universal formatting */
   .container {
     padding: 24px;
     font-family: "Poppins", sans-serif;
@@ -26,12 +25,7 @@ html {
 
   .main-header {
     height: 5rem;
-    padding: 24px;
     background-color: #fff;
-  }
-
-  .menu-lists {
-    display: none;
   }
 
   .info {
@@ -42,8 +36,31 @@ html {
     font-family: "Poppins", sans-serif;
     transition: all 0.3s ease-in;
     animation-duration: 3s;
-    animation-name: slidFromLeft;
-    transform: translate(0%);
+    padding: 24px;
+    position: fixed;
+    margin: 0 auto;
+    background-color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+
+  #closeHam {
+    z-index: 15;
+    position: relative;
+  }
+
+  .menu-lists {
+    display: none;
+    flex-direction: column;
+    list-style-type: none;
+    position: absolute;
+    background-color: rgba(96, 112, 255, 0.9);
+    left: 0;
+    color: white;
+    padding: 50px 20px;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    gap: 15px;
   }
 
   .info a {
@@ -51,7 +68,11 @@ html {
     color: #6070ff;
     font-size: 20px;
     font-weight: 700;
-    text-transform: uppercase;
+    text-transform: capitalize;
+  }
+
+  .item a {
+    color: #fff;
   }
 
   .headlines {
@@ -98,13 +119,10 @@ html {
 
   .social-icons ul {
     display: flex;
-
-    /* justify-content: space-between; */
     gap: 20px;
     width: 50%;
   }
 
-  /* work styling */
   .projects {
     margin-block: 104px;
     display: grid;
@@ -176,8 +194,6 @@ html {
     font-size: 17px;
     font-weight: 600;
   }
-
-  /* about myself styling */
 
   .about-myself {
     background-color: #fff;
@@ -362,10 +378,18 @@ html {
     background-color: #2230d2;
     color: #fff;
   }
+
+  .hide {
+    display: none;
+  }
+
+  .show {
+    display: flex;
+  }
 }
 
 @media screen and (min-width: 768px) {
-  .info-image {
+  .hamburger {
     display: none;
   }
 
@@ -374,27 +398,37 @@ html {
     width: 100%;
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
     z-index: 6;
+    margin: 0 auto;
+  }
+
+  .info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding-inline: 100px;
+    animation-name: slidFromLeft;
+    transform: translate(0%);
   }
 
   .menu-lists {
     display: flex;
+    flex-direction: row;
     list-style-type: none;
+    position: static;
+    background-color: transparent;
+    width: auto;
+    height: auto;
+    padding: 6px;
   }
 
   .menu-lists .item a {
+    text-decoration: none;
+    color: #6070ff;
+    font-size: 17px;
+    font-weight: 700;
     text-transform: capitalize;
-    font-size: 15px;
-    color: #344563;
-    margin-right: 32px;
-    cursor: pointer;
-  }
-
-  .info {
-    max-width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
   }
 
   .headlines {
