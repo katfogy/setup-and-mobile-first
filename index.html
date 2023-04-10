@@ -26,8 +26,8 @@
                 </ul>
 
                 <div class="hamburger">
-                    <img src="assets/icons/hamburger-icon.svg" alt="hamburger-icon-menu" class="info-image">
-                    <img src="assets/icons/close.png" alt="hamburger-icon-menu" class="info-image hide">
+                    <img src="assets/icons/hamburger-icon.svg" alt="hamburger-icon-menu" class="info-image" id="openHam">
+                    <img src="assets/icons/close.png" alt="hamburger-icon-menu" class="info-image hide" id="closeHam">
                 </div>
             </div>
         </nav>
@@ -219,7 +219,7 @@
                 <form action="https://formspree.io/f/mbjezrjd" method="POST">
                     <input type="text" name="fullname" class="form-control" maxlength="30" placeholder="Enter Name"
                         required>
-                    <input type="email" name="email" class="form-control" placeholder="Enter Email" required>
+                    <input type="email" name="email" class="form-control" placeholder="Enter Email">
                     <textarea name="message" id="" cols="30" rows="10" maxlength="500"
                         required>Write your message here...</textarea>
                     <button class="get-in-touch">Get in touch</button>
@@ -228,6 +228,7 @@
            </div>
         </article>
     </main>
+    <script src="index.js"></script>
 </body>
 
 </html>

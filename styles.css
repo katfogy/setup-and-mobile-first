@@ -37,13 +37,16 @@ html {
     font-family: "Poppins", sans-serif;
     transition: all 0.3s ease-in;
     animation-duration: 3s;
-    animation-name: slidFromLeft;
-    transform: translate(0%);
     padding: 24px;
     position: fixed;
     margin: 0 auto;
     background-color: #ffff;
     box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  }
+
+  #closeHam {
+    z-index: 15;
+    position: relative;
   }
 
   .menu-lists {
@@ -54,7 +57,7 @@ html {
     background-color: rgba(96, 112, 255, 0.9);
     left: 0;
     color: white;
-    padding: 0;
+    padding: 50px 20px;
     top: 0;
     width: 100%;
     height: 100vh;
@@ -412,6 +415,8 @@ html {
     position: fixed;
     width: 100%;
     padding-inline: 100px;
+    animation-name: slidFromLeft;
+    transform: translate(0%);
   }
 
   .menu-lists {
