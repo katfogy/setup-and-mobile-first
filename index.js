@@ -113,7 +113,7 @@ let generateProduct = () => {
       return `<li class="btn">${x}</li>`
     }).join("")}
     </ul>
-    <button class="detail-btn">See project</button>
+    <button class="detail-btn" id=${id}>See project</button>
 </div>
 </div>
 `
