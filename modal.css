@@ -19,5 +19,196 @@ html {
 
 @media screen and (min-width: 350px) {
 
+ #modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(193, 199, 208,0.9);
+  backdrop-filter: blur(5px);
+  z-index: 7;
+  padding: 10px;
+ }
 
+  .card{
+    padding: 20px;
+    width: 90%;
+    position: fixed;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 5;
+    max-height: 99vh;
+    border-radius: 10px;
+    margin: 20px auto;
+    margin-bottom: 20px;
+
+  }
+
+  .card-feature-image{
+    border-radius: 10px;
+    max-width: 100%;
+  }
+  #closePop{
+    width:2%;
+    height: 2%;
+    cursor: pointer;
+  }
+
+  .card-top{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .card-middle{
+    display: flex;
+    justify-content: space-between;
+
+  }
+
+  .card-middle ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    float: left;
+    color: #7A869A;
+  }
+  .card-library{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    gap: 20px;
+    
+  }
+
+  .library-stack{
+    background-color: #EBEBFF;
+    padding: 2px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #6070FF;
+  }
+
+  .card-button{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .card-button button{
+    background-color: #DFE1E6;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid #396DF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:6px;
+    cursor: pointer;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  #modal{
+    padding: 10px;
+   }
+  .card{
+    padding: 30px;
+    max-width: 700px;
+    position: fixed;
+    top: 47%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    z-index: 5;
+    max-height: 98vh;
+    border-radius: 10px;
+    margin: 20px auto;
+
+  }
+
+
+  .card-feature-image{
+    border-radius: 10px;
+   width: 100%;
+   height: 50vh;
+  }
+  #closePop{
+    width:2%;
+    height: 2%;
+    cursor: pointer;
+  }
+
+  .card-top{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+  }
+
+  .card-middle{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+
+  }
+
+  .card-middle ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 25px;
+    float: left;
+    color: #7A869A;
+  }
+  .card-library{
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    gap: 20px;
+    
+  }
+
+  .library-stack{
+    background-color: #EBEBFF;
+    padding: 2px 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    color: #6070FF;
+  }
+
+  .card-button{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    /* width: 100%; */
+  }
+
+  .card-button button{
+    background-color: #DFE1E6;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: 1px solid #396DF2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:6px;
+  }
+
+  .card-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .card-center{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+  }
 }
