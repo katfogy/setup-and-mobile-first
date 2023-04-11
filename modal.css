@@ -34,12 +34,12 @@ html {
     padding: 20px;
     width: 90%;
     position: fixed;
-    top: 50%;
+    top: 49%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: #fff;
     z-index: 5;
-    max-height: 99vh;
+    max-height: 98vh;
     border-radius: 10px;
     margin: 20px auto;
     margin-bottom: 20px;
@@ -96,10 +96,13 @@ html {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-block: 3px;
+    border-top: 2px solid #ebecf0;
+    padding-top: 3px;
   }
 
   .card-button a {
-    background-color: #dfe1e6;
+    background-color: #fff;
     padding: 10px 20px;
     border-radius: 10px;
     border: 1px solid #396df2;
@@ -107,7 +110,7 @@ html {
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    gap: 6px;
+    gap: 2px;
   }
 }
 
@@ -170,23 +173,15 @@ html {
     color: #6070ff;
   }
 
+  .test {
+    width: 15px;
+  }
+
   .card-button {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-
-    /* width: 100%; */
-  }
-
-  .card-button button {
-    background-color: #dfe1e6;
-    padding: 10px 15px;
-    border-radius: 10px;
-    border: 1px solid #396df2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 6px;
+    margin-block: 15px;
   }
 
   .card-bottom {
@@ -200,7 +195,7 @@ html {
     grid-template-columns: 2fr 1fr;
     justify-content: space-between;
     width: 100%;
-    gap: 5px;
+    gap: 8px;
   }
 
   .card-library {
@@ -212,7 +207,7 @@ html {
   }
 
   .card-button a {
-    background-color: #dfe1e6;
+    background-color: #ffff;
     padding: 10px 6px;
     border-radius: 10px;
     border: 1px solid #396df2;
@@ -222,5 +217,6 @@ html {
     gap: 2px;
     text-decoration: none;
     font-size: 14px;
+    margin-block: 10px;
   }
 }

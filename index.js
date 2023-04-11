@@ -113,9 +113,7 @@ function generateProduct() {
 </div>
 `).join('');
 }
-// const generateProduct = () => ();
 
-// Js to trigger popup
 projectsSide.addEventListener('click', (e) => {
   modal.classList.remove('hide');
   if (e.target.classList.contains('detail-btn')) {
@@ -148,12 +146,12 @@ projectsSide.addEventListener('click', (e) => {
         <div class="card-button">
             <a class="card-button-live" href=${search.liveLink}>
                 See live
-                <img src="assets/icons/live-Icon.png" alt="">
+                <img src="assets/icons/live-Icon.png" alt="link" class="test">
             </a>
 
             <a class="card-button-source" href=${search.linkSource}>
                 See source
-                <img src="assets/icons/sourcecode-vector.png" alt="">
+                <img src="assets/icons/sourcecode-vector.png" alt="link" class="test">
             </a>
         </div>
     </div>
@@ -173,5 +171,4 @@ modal.addEventListener('click', (e) => {
   generateProduct();
 });
 
-// invoking the render function
 generateProduct();
