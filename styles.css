@@ -61,6 +61,7 @@ html {
     width: 100%;
     height: 100vh;
     gap: 15px;
+    backdrop-filter: blur(5px);
   }
 
   .info a {
@@ -138,7 +139,7 @@ html {
   }
 
   .project-tile {
-    font-size: 38px;
+    font-size: 25px;
     margin-block: 15px;
     color: #172b4d;
   }
