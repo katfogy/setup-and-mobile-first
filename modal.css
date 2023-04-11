@@ -65,6 +65,7 @@ html {
   .card-middle {
     display: flex;
     justify-content: space-between;
+    margin-block: 10px;
   }
 
   .card-middle ul {
