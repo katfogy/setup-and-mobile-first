@@ -53,7 +53,7 @@ html {
     flex-direction: column;
     list-style-type: none;
     position: absolute;
-    background-color: rgba(96, 112, 255, .9);
+    background-color: rgba(96, 112, 255, 0.9);
     left: 0;
     color: white;
     padding: 50px 20px;
