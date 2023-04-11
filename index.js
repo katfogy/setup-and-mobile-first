@@ -113,12 +113,20 @@ let generateProduct = () => {
       return `<li class="btn">${x}</li>`
     }).join("")}
     </ul>
-    <button class="detail-btn" id=${id}>See project</button>
+    <button class="detail-btn see-p" id=${id}>See project</button>
 </div>
 </div>
 `
   }).join(""))
 }
+
+
+//Js to trigger popup
+projectsSide.addEventListener('click',(e)=>{
+if(e.target.classList.contains('detail-btn')){
+  console.log(e.target.id)
+}
+})
 
 //invoking the render function
 generateProduct();
