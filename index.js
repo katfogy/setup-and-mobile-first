@@ -184,7 +184,6 @@ generateProduct();
 fullnameError.style.display = 'none';
 messageError.style.display = 'none';
 emailError.style.display = 'none';
-// email validation Exercise
 sendBtn.addEventListener('click', (e) => {
   e.preventDefault();
   const regex = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-z\-0-9]+\.)+[a-z]{2,}))$/;
