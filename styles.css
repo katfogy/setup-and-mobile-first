@@ -353,6 +353,8 @@ html {
     cursor: pointer;
     font-size: 17px;
     font-weight: 700;
+    display: block;
+    margin: auto;
   }
 
   input,
@@ -387,6 +389,20 @@ html {
   .show {
     display: flex;
   }
+  #fullnameError, #emailError, #messageError{
+    display: block;
+    width: 100%;
+    text-align: left;
+    margin: 0;
+    color: red;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+  }
+
+ #messageError{
+  margin-bottom: 10px;
+ }
 }
 
 @media screen and (min-width: 768px) {
