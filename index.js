@@ -4,6 +4,14 @@ const menu = document.querySelector('.menu-lists');
 const menuLinks = document.querySelectorAll('.item');
 const projectsSide = document.getElementById('projects');
 const modal = document.getElementById('modal');
+const sendBtn = document.getElementById('send-msg');
+const fullname = document.getElementById('fullname');
+const message = document.getElementById('message');
+const email = document.getElementById('email');
+const formD = document.getElementById('form');
+const messageError = document.getElementById('messageError');
+const emailError = document.getElementById('emailError');
+const fullnameError = document.getElementById('fullnameError');
 
 openHam.addEventListener('click', () => {
   menu.classList.toggle('show');
@@ -172,3 +180,52 @@ modal.addEventListener('click', (e) => {
 });
 
 generateProduct();
+
+fullnameError.style.display = 'none';
+messageError.style.display = 'none';
+emailError.style.display = 'none';
+
+function ResetError(e, b) {
+  setTimeout(() => {
+    e.style.border = 'none';
+    b.style.display = 'none';
+  }, 3000);
+}
+sendBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  const regex = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
+  if (fullname.value === '') {
+    fullname.style.border = '2px solid red';
+    fullnameError.textContent = 'FullName is Required';
+    fullnameError.style.display = 'block';
+    ResetError(fullname, fullnameError);
+  } else if (email.value === '') {
+    email.style.border = '2px solid red';
+    emailError.textContent = 'Email Field Required';
+    emailError.style.display = 'block';
+    ResetError(email, emailError);
+  } else if (!regex.test(email.value)) {
+    email.style.border = '2px solid red';
+    emailError.textContent = 'Email address must be valid and in lower case';
+    emailError.style.display = 'block';
+    ResetError(email, emailError);
+  } else if (message.value === '') {
+    message.style.border = '2px solid red';
+    messageError.textContent = 'Message is Required';
+    messageError.style.display = 'block';
+    ResetError(message, messageError);
+  } else if (message.value.length > 500) {
+    message.style.border = '2px solid red';
+    messageError.textContent = 'Message Body cannot Exceed 500 Characters';
+    messageError.style.display = 'block';
+    ResetError(message, messageError);
+  } else {
+    messageError.textContent = 'Message Sent';
+    messageError.style.display = 'block';
+    messageError.style.color = 'green';
+    formD.submit();
+    fullname.value = '';
+    message.value = '';
+    email.value = '';
+  }
+});
