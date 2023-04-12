@@ -115,7 +115,6 @@ function generateProduct() {
 }
 
 projectsSide.addEventListener('click', (e) => {
-  
   if (e.target.classList.contains('detail-btn')) {
     modal.classList.remove('hide');
     const id = parseFloat(e.target.id);
