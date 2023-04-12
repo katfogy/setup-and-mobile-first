@@ -230,20 +230,18 @@ sendBtn.addEventListener('click', (e) => {
   }
 });
 
-
-function savaData(){
-  const userData={
-    username:fullname.value,
-    email:email.value,
-    message:message.value
-  }
+function savaData() {
+  const userData = {
+    username: fullname.value,
+    email: email.value,
+    message: message.value,
+  };
   localStorage.setItem('userData', JSON.stringify(userData));
 }
 
-fullname.addEventListener('focusout', savaData)
-email.addEventListener('focusout', savaData)
-message.addEventListener('focusout', savaData)
-
+fullname.addEventListener('focusout', savaData);
+email.addEventListener('focusout', savaData);
+message.addEventListener('focusout', savaData);
 
 const data = JSON.parse(localStorage.getItem('userData'));
 
