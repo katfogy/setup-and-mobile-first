@@ -389,7 +389,10 @@ html {
   .show {
     display: flex;
   }
-  #fullnameError, #emailError, #messageError{
+
+  #fullnameError,
+  #emailError,
+  #messageError {
     display: block;
     width: 100%;
     text-align: left;
@@ -400,9 +403,9 @@ html {
     border-radius: 3px;
   }
 
- #messageError{
-  margin-bottom: 10px;
- }
+  #messageError {
+    margin-bottom: 10px;
+  }
 }
 
 @media screen and (min-width: 768px) {
