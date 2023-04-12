@@ -573,16 +573,17 @@ html {
     transform: translate(0%);
   }
 
-
   .languages {
     display: flex;
     justify-content: space-between;
     gap: 5px;
     width: 100%;
   }
-.more{
-  float: right;
-}
+
+  .more {
+    float: right;
+  }
+
   .languages li {
     display: flex;
     flex-direction: column;

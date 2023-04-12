@@ -185,11 +185,11 @@ fullnameError.style.display = 'none';
 messageError.style.display = 'none';
 emailError.style.display = 'none';
 
-function ResetError(e,b){
-     setTimeout(() => {
-      e.style.border = 'none';
-      b.style.display = 'none';
-    }, 3000)
+function ResetError(e, b) {
+  setTimeout(() => {
+    e.style.border = 'none';
+    b.style.display = 'none';
+  }, 3000);
 }
 sendBtn.addEventListener('click', (e) => {
   e.preventDefault();
@@ -198,27 +198,27 @@ sendBtn.addEventListener('click', (e) => {
     fullname.style.border = '2px solid red';
     fullnameError.textContent = 'FullName is Required';
     fullnameError.style.display = 'block';
-    ResetError(fullname,fullnameError)
+    ResetError(fullname, fullnameError);
   } else if (email.value === '') {
     email.style.border = '2px solid red';
     emailError.textContent = 'Email Field Required';
     emailError.style.display = 'block';
-   ResetError(email,emailError)
+    ResetError(email, emailError);
   } else if (!regex.test(email.value)) {
     email.style.border = '2px solid red';
     emailError.textContent = 'Email address must be valid and in lower case';
     emailError.style.display = 'block';
-    ResetError(email,emailError)
+    ResetError(email, emailError);
   } else if (message.value === '') {
     message.style.border = '2px solid red';
     messageError.textContent = 'Message is Required';
     messageError.style.display = 'block';
-    ResetError(message,messageError)
+    ResetError(message, messageError);
   } else if (message.value.length > 500) {
     message.style.border = '2px solid red';
     messageError.textContent = 'Message Body cannot Exceed 500 Characters';
     messageError.style.display = 'block';
-      ResetError(message,messageError)
+    ResetError(message, messageError);
   } else {
     messageError.textContent = 'Message Sent';
     messageError.style.display = 'block';
