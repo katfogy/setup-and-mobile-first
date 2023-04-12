@@ -115,8 +115,9 @@ function generateProduct() {
 }
 
 projectsSide.addEventListener('click', (e) => {
-  modal.classList.remove('hide');
+  
   if (e.target.classList.contains('detail-btn')) {
+    modal.classList.remove('hide');
     const id = parseFloat(e.target.id);
     const search = projects.find((x) => x.id === id);
     if (search !== undefined) {
