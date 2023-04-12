@@ -193,7 +193,7 @@ function ResetError(e, b) {
 }
 sendBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  const regex = /^[a-z]+\@[^\s]+\.[^\s]+$/;
+  const regex = /^[a-z]+@[a-z0-9-]+\.[a-z0-9-.]+$/;
   if (fullname.value === '') {
     fullname.style.border = '2px solid red';
     fullnameError.textContent = 'FullName is Required';
