@@ -12,6 +12,7 @@ const formD = document.getElementById('form');
 const messageError = document.getElementById('messageError');
 const emailError = document.getElementById('emailError');
 const fullnameError = document.getElementById('fullnameError');
+const resetBtn = document.getElementById('resetBtn');
 
 openHam.addEventListener('click', () => {
   menu.classList.toggle('show');
@@ -227,5 +228,33 @@ sendBtn.addEventListener('click', (e) => {
     fullname.value = '';
     message.value = '';
     email.value = '';
+  }
+});
+
+function savaData() {
+  const userData = {
+    username: fullname.value,
+    email: email.value,
+    message: message.value,
+  };
+  localStorage.setItem('userData', JSON.stringify(userData));
+}
+
+fullname.addEventListener('focusout', savaData);
+email.addEventListener('focusout', savaData);
+message.addEventListener('focusout', savaData);
+
+const data = JSON.parse(localStorage.getItem('userData'));
+
+if (data) {
+  fullname.value = data.username;
+  email.value = data.email;
+  message.value = data.message;
+}
+
+resetBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  if (data) {
+    localStorage.removeItem('userData');
   }
 });
