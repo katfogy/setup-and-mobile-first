@@ -254,7 +254,7 @@ if (data) {
 
 resetBtn.addEventListener('click', (e) => {
   e.preventDefault();
-  if(data){
+  if (data) {
     localStorage.removeItem('userData');
   }
 });
