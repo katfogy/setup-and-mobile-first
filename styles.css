@@ -342,7 +342,8 @@ html {
     font-family: inherit;
   }
 
-  .get-in-touch {
+  .get-in-touch,
+  .reset {
     padding: 15px;
     border-radius: 8px;
     color: #6070ff;
@@ -355,6 +356,12 @@ html {
     font-weight: 700;
     display: block;
     margin: auto;
+  }
+
+  .reset {
+    background-color: red;
+    color: #f7f7f9;
+    margin-top: 10px;
   }
 
   input,
@@ -375,6 +382,11 @@ html {
   .get-in-touch:hover {
     background-color: #6070ff;
     color: #fff;
+  }
+
+  .reset:hover {
+    background-color: #fff;
+    color: red;
   }
 
   button:visited {
@@ -573,6 +585,11 @@ html {
     transform: translate(0%);
   }
 
+  .tools {
+    display: block;
+    position: relative;
+  }
+
   .languages {
     display: flex;
     justify-content: space-between;
@@ -581,7 +598,9 @@ html {
   }
 
   .more {
-    float: right;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
   }
 
   .languages li {

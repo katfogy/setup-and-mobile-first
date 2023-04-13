@@ -12,6 +12,7 @@ const formD = document.getElementById('form');
 const messageError = document.getElementById('messageError');
 const emailError = document.getElementById('emailError');
 const fullnameError = document.getElementById('fullnameError');
+const resetBtn = document.getElementById('resetBtn');
 
 openHam.addEventListener('click', () => {
   menu.classList.toggle('show');
@@ -250,3 +251,8 @@ if (data) {
   email.value = data.email;
   message.value = data.message;
 }
+
+resetBtn.addEventListener('click', (e) => {
+  e.preventDefault();
+  localStorage.removeItem('userData');
+});
