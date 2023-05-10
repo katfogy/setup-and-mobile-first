@@ -17,101 +17,100 @@ html {
   scroll-behavior: smooth;
 }
 
+#modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(193, 199, 208, 0.9);
+  backdrop-filter: blur(5px);
+  z-index: 7;
+  padding: 10px;
+}
 
-  #modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(193, 199, 208, 0.9);
-    backdrop-filter: blur(5px);
-    z-index: 7;
-    padding: 10px;
-  }
+.card {
+  padding: 20px;
+  width: 90%;
+  position: fixed;
+  top: 49%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  z-index: 5;
+  max-height: 98vh;
+  border-radius: 10px;
+  margin: 20px auto;
+  margin-bottom: 20px;
+}
 
-  .card {
-    padding: 20px;
-    width: 90%;
-    position: fixed;
-    top: 49%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    z-index: 5;
-    max-height: 98vh;
-    border-radius: 10px;
-    margin: 20px auto;
-    margin-bottom: 20px;
-  }
+.card-feature-image {
+  border-radius: 10px;
+  max-width: 100%;
+}
 
-  .card-feature-image {
-    border-radius: 10px;
-    max-width: 100%;
-  }
+#closePop {
+  width: 5%;
+  height: 5%;
+  cursor: pointer;
+}
 
-  #closePop {
-    width: 5%;
-    height: 5%;
-    cursor: pointer;
-  }
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
 
-  .card-top {
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-  }
+.card-middle {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 10px;
+}
 
-  .card-middle {
-    display: flex;
-    justify-content: space-between;
-    margin-block: 10px;
-  }
+.card-middle ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  float: left;
+  color: #7a869a;
+}
 
-  .card-middle ul {
-    display: flex;
-    justify-content: flex-end;
-    gap: 25px;
-    float: left;
-    color: #7a869a;
-  }
+.card-library {
+  display: flex;
+  justify-content: flex-start;
+  list-style-type: none;
+  gap: 10px;
+}
 
-  .card-library {
-    display: flex;
-    justify-content: flex-start;
-    list-style-type: none;
-    gap: 10px;
-  }
+.library-stack {
+  background-color: #ebebff;
+  padding: 2px 5px;
+  margin: 10px 0;
+  border-radius: 5px;
+  color: #6070ff;
+  font-size: 13px;
+}
 
-  .library-stack {
-    background-color: #ebebff;
-    padding: 2px 5px;
-    margin: 10px 0;
-    border-radius: 5px;
-    color: #6070ff;
-    font-size: 13px;
-  }
+.card-button {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-block: 3px;
+  border-top: 2px solid #ebecf0;
+  padding-top: 3px;
+}
 
-  .card-button {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin-block: 3px;
-    border-top: 2px solid #ebecf0;
-    padding-top: 3px;
-  }
-
-  .card-button a {
-    background-color: #fff;
-    padding: 10px 20px;
-    border-radius: 10px;
-    border: 1px solid #396df2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    gap: 2px;
-  }
+.card-button a {
+  background-color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 1px solid #396df2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  gap: 2px;
+}
 
 @media screen and (min-width: 768px) {
   #modal {
